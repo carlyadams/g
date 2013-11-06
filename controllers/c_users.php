@@ -123,7 +123,12 @@ class users_controller extends base_controller {
         $posts = DB::instance(DB_NAME)->select_rows($q);
         $this->template->content->posts       = $posts;
         echo $this->template;
+		
+		echo '<pre>';
+print_r($this->user);
+echo '</pre>';
     }
+
 
 
 } # end of the class

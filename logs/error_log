@@ -1,0 +1,2 @@
+[06-Nov-2013 15:43:39 UTC] PHP Warning:  require_once(/home/cbaprobi/public_html/../environment.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/cbaprobi/public_html/p2/index.php on line 14
+[06-Nov-2013 15:43:39 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/cbaprobi/public_html/../environment.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cbaprobi/public_html/p2/index.php on line 14

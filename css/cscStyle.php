@@ -134,7 +134,7 @@ hr {
 
 
 a:link, a:visited {
-        color: #333333;
+        color: #444444;
 }
 
 
