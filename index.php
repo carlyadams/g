@@ -25,6 +25,7 @@
 
 
 # Routing
+# You can use regexp, for example '/users/([A-Za-z0-9-\s\@]+)' => '/members/$0',
     Router::$routes = array(
             '/' => '/index',     # default controller when "/" is requested
     );
@@ -36,4 +37,5 @@
         require CORE_PATH."environment-details.php";
         
 ?>
+
 
